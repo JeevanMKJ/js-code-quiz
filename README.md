@@ -21,6 +21,8 @@ To install this application "git clone" this repository to your local machine an
 
 To use this application simply open the code in your code editor of choise and then open the application in the browser. If using VSCode you can find this feature in the by right clicking your index.html file.
 
+![Image of js-code-quiz](assets/Screen%20Shot%20JS-code-quiz.png)
+
 ## License
 
 This project is covered under the MIT license.
