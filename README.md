@@ -23,6 +23,8 @@ To use this application simply open the code in your code editor of choise and t
 
 ![Image of js-code-quiz](assets/Screen%20Shot%20JS-code-quiz.png)
 
+[Try me out at](https://jeevanmkj.github.io/js-code-quiz/)
+
 ## License
 
 This project is covered under the MIT license.
