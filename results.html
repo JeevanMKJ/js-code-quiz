@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <!-- Add Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Code Quiz Challenge Results</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Return</a>
+      </nav>
+      <header>
+        <h1 class="display-4">Your Score</h1>
+        <h2 id="results">Seconds</h2>
+      </header>
+      <section>
+        <form>
+          <div class="form-group">
+            <label for="inititals">Your Initials:</label>
+            <input id="initials" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <input id="submit" type="submit" class="btn btn-primary" />
+          </div>
+          <div class="form-group">
+            <button id="clear" class="btn btn-danger">Clear</button>
+          </div>
+        </form>
+        <p></p>
+      </section>
+    </div>
+    <script src="assets/js/score.js"></script>
+    <!-- Add Bootstrap JavaScript and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

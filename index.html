@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <!-- Add Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Code Quiz Challenge</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-light bg-light">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="results.html">View Highscores</a>
+          </li>
+          <li class="nav-item">
+            <span class="navbar-text">Timer</span>
+          </li>
+        </ul>
+        <div id="clock">70</div>
+      </nav>
+      <header>
+        <h1 class="display-4">Coding Quiz Challenge</h1>
+      </header>
+      <section>
+        <p class="lead">
+          Test your coding skills and try to get the best time by answering the
+          multiple-choice questions. Each incorrect answer is penalized by 10
+          seconds.
+        </p>
+        <button id="start-button" class="btn btn-primary">Start Quiz</button>
+        <div id="question" class="mt-4"></div>
+        <div id="answer-a" class="mt-2"></div>
+        <div id="answer-b" class="mt-2"></div>
+        <div id="answer-c" class="mt-2"></div>
+        <div id="answer-d" class="mt-2"></div>
+      </section>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <!-- Add Bootstrap JavaScript and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
