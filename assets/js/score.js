@@ -21,7 +21,7 @@ saveButton.addEventListener("click", function (event) {
   event.preventDefault();
 
   if (initialsEntry.value === "") {
-    infoParagraph.textContent = "Please enter your initials";
+    infoParagraph.textContent = "The Winner is ...?";
     return;
   }
 

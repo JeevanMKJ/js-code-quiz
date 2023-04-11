@@ -47,7 +47,6 @@ const quizContent = [
     },
     correct: "2ndVar",
   },
-  // ...
 ];
 
 function beginQuiz() {
